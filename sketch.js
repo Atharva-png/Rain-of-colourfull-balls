@@ -69,7 +69,7 @@ function draw() {
   }
 
   //display the paricles 
-  if(frameCount%60===0){
+  if(frameCount%0.5===0){
     particles.push(new Particle(random(width/2-10,width/2+10),10,10));
   }
  
